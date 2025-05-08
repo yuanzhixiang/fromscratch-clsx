@@ -1,6 +1,6 @@
 {
   "name": "@yuanzhixiang/clsx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tiny (239B) utility for constructing className strings conditionally.",
   "keywords": [],
   "author": "",
