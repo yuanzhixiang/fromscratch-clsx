@@ -1,13 +1,22 @@
 {
-  "name": "fromscratch-clsx",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@yuanzhixiang/clsx",
+  "version": "0.0.1",
+  "description": "A tiny (239B) utility for constructing className strings conditionally.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node bin",
+    "test": "uvu -r esm test"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "esm": "3.2.25",
+    "terser": "4.8.0",
+    "uvu": "0.5.4"
+  }
 }
