@@ -1,7 +1,11 @@
 {
   "name": "@yuanzhixiang/clsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny (239B) utility for constructing className strings conditionally.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "node bin",
@@ -10,10 +14,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0",
+  "files": [
+    "*.d.mts",
+    "*.d.ts",
+    "dist"
+  ],
   "devDependencies": {
     "esm": "3.2.25",
     "terser": "4.8.0",
